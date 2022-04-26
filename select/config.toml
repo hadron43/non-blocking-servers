@@ -1,0 +1,12 @@
+# ================ Required Fields ==================
+ports = [4444, 4445]
+max_msg_size = 1024
+thread_count = 10
+
+# ================= Optional Fields ==================
+# You can choose to remove these fields
+
+bind_address = "127.0.0.1"
+
+# interval before timeout (in seconds)
+select_timeout = 10
