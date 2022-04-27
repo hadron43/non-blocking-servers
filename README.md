@@ -3,6 +3,7 @@
 ## How to run?
 
 ### Install dependencies
+We need `c++ 17` to compile these servers, because of toml++ dependency requireed for parsing configuration files.
 ```console
 git submodule init
 git submodule update
