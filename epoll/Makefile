@@ -1,6 +1,5 @@
-default: 
-	g++ -Wall -Werror server.cpp -o server -lpthread
-	./server
+default:
+	g++ server.cpp -o server -lpthread
 
 clean:
 	rm server
